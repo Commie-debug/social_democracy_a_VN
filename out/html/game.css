@@ -574,3 +574,13 @@ table {
     text-decoration: underline;
     text-decoration-style: dotted;
 }
+
+#tools_wrapper,
+.tools,
+#qualities {
+  display: none !important;
+}
+
+#mid_panel {
+  margin: 0 auto;
+}
