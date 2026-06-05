@@ -407,7 +407,7 @@ a.card:focus .card-tooltip, a.card:hover .card-tooltip {
 }
 .face-img {
   /*max-width: 150px;*/
-  vertical-align: bottom;
+  vertical-align: top;
   object-fit: cover;
 }
 
