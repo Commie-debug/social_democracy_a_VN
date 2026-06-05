@@ -1,0 +1,27 @@
+title: DNVP things
+subtitle: The uncool military party or something.
+view-if: year == 1928 and month = 4
+new-page: true
+max-visits: 1
+on-arrival: ddp_name = "DStP"; new_middle_ddp -= 5; 
+tags: event
+
+= Tech Demo 2
+
+Yea so introducing DNVP or something 
+
+- @spd: Ok show me then.
+- @dnvp: GUH.
+
+@spd
+on-arrival: ddp_workers += 3; spd_new_middle += 3; ddp_dstp_seen = 1
+face-image: img/spd.jpg
+
+Actually i was lying heres the SPD made by Ney.
+
+@dnvp
+view-if: ddp_dstp_seen = 1;
+face-image: img/dnvp.jpg
+
+ok fine heres the DNVP by Ney again.
+
