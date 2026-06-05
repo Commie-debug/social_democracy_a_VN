@@ -1,6 +1,6 @@
 title: DNVP things
 subtitle: The uncool military party or something.
-view-if: year == 1928 and month = 4
+view-if: year == 1928 and month = 7
 new-page: true
 max-visits: 1
 on-arrival: ddp_name = "DStP"; new_middle_ddp -= 5; 
