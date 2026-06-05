@@ -430,7 +430,7 @@ img {
 }
 .sprite {
     position: absolute;
-    width: 180px;
+    width: 360px;
 }
 #topLeftSprite {
     float: left;
