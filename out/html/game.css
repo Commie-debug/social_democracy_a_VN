@@ -56,10 +56,22 @@ header, #content, footer {
   padding: 1em 2em;
   background-color: var(--content-bg-color);
   box-shadow: 0 -4px 16px rgba(0,0,0,0.3);
-  max-height: 5vh;
+  max-height: 10vh;
   overflow-y: auto;
   z-index: 10;
 }
+
+#content ul.choices li a {
+    font-size: 0.85em;
+    padding: 0.3em 0.6em;
+}
+
+#content p {
+    font-size: 0.85em;
+    line-height: 1.4em;
+    margin: 0.3em 0;
+}
+
 footer {
   margin-top: 1em;
   font-size: 0.8em;
